@@ -1,4 +1,4 @@
-# Aserta Project
+# CRUD Project
 Aserta Challenge es un proyecto desarrollado con **Spring Boot** y **Maven** que implementa un sistema CRUD para la gestión de productos. Este proyecto utiliza **MySQL** como base de datos y expone una API REST para realizar operaciones como crear, leer, actualizar y eliminar productos.
 
 ## Características
