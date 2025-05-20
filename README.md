@@ -2,7 +2,6 @@
 Aserta Challenge es un proyecto desarrollado con **Spring Boot** y **Maven** que implementa un sistema CRUD para la gestión de productos. Este proyecto utiliza **MySQL** como base de datos y expone una API REST para realizar operaciones como crear, leer, actualizar y eliminar productos.
 
 ## Características
-
 - **Framework**: Spring Boot.
 - **Base de Datos**: MySQL.
 - **Persistencia**: JPA (Java Persistence API).
@@ -22,8 +21,7 @@ Aserta Challenge es un proyecto desarrollado con **Spring Boot** y **Maven** que
 
 Asegúrate de tener una base de datos MySQL configurada. Por defecto, el proyecto utiliza las siguientes credenciales (configuradas en `application.properties`):
 
-```
-properties
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/aserta
 spring.datasource.username=root
 spring.datasource.password=admin
@@ -34,7 +32,7 @@ Puedes modificar estas configuraciones según sea necesario.
 
 ## Construcción del Proyecto
 Para construir el proyecto, utiliza el wrapper de Maven incluido:
-```
+```console
 mvn clean install
 ```
 
